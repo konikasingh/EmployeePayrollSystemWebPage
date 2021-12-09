@@ -3,39 +3,38 @@ body
     margin: 0;
     height: 100%;
 }
-.header{
-
-    padding: 15px 0;
-    background-color: #d6dcee;
-}
-
-.header-content{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  border: 0px solid green;
-
-}
-.logo-content{
+.header-content
+{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    border: 1px solid green;
+    justify-content: center;
+    border: 0px solid green;
+}
+.logo-content
+{
+    display: flex;
+    align-items:center;
+    border:0px solid green;
     width: 80%;
 }
-
+img
+{
+    width: 3cm;
+}
+.logo-content-img
+{
+    border:0px solid grey;
+}
 .emp-text
 {
     font: normal normal bold 20px/25px Montserrat;
-    font-family: sans-serif;
+    font-family: "Montserrat",sans-serif;
     letter-spacing: 0px;
-    color: rgb(94, 192, 14);
-    text-transform: capitalize;
-
+    color: green;
+    text-transform: uppercase;
 }
-.emp-payroll{
-    color: rgb(5, 47, 71);
+.emp-payroll
+{
+    color: hotpink;
 }
 .form-content 
 {
@@ -123,4 +122,37 @@ select
     letter-spacing: 0px;
     color: #42515f;
     background-color: transparent;
+}
+.buttonParent 
+{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.button 
+{
+    font-size: 20px;
+    font-family: Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    opacity: 1;
+    background: transparent;
+    border: none;
+    font-weight: 400;
+    min-width: 140px;
+    padding: 7px 7px;
+    border: 1px solid #707070;
+    cursor: pointer;
+}
+.submitButton 
+{
+    border: none;
+    background-color: #f5f5f5;
+    margin-right: 30px;
+}
+.cancelButton 
+{
+    text-decoration: none;
+    text-align: center;
 }
